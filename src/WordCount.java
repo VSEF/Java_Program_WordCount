@@ -5,6 +5,9 @@ import java.util.*;
 import java.io.*;
 public class WordCount {
     public static void main(String [] args) throws Exception {
+
+        // Before start running on an IDEA please change file address to "src/Test.txt"
+
         File file = new File("./Test.txt");
         Scanner sc = new Scanner(file);
 
