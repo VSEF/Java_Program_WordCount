@@ -5,7 +5,7 @@ import java.util.*;
 import java.io.*;
 public class WordCount {
     public static void main(String [] args) throws Exception {
-        File file = new File("src/Test.txt");
+        File file = new File("./src/Test.txt");
         Scanner sc = new Scanner(file);
 
         int words = 0;
